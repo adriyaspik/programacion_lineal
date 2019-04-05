@@ -1,0 +1,51 @@
+#+title: Programación Lineal.
+#+author: Adri. 
+
+#+options: H:2 
+
+* Teoría
+
+** Motivación
+
+El objetivo de la programación lineal es maximizar funciones lineales
+sobre dominios conexos, es decir, definidos sobre regiones dadas por
+desigualdades.
+
+** Ejemplos  
+
+- Problema de la dieta.
+- Optimización de lugares en una excursión.
+- Escoger objetos óptimos para una excursión.
+- Flujo máximo.
+
+** Convexidad
+
+Un conjunto \(X\) es *convexo* si para cualesquiera dos puntos
+\(a,b\in X\) y \(t\in [0,1]\) se tiene que \(ta+(1-t)b\in X\).
+
+** Método Simplex
+
+
+* Herramientas computacionales
+
+** Emacs
+
+| C-x C-s         | Salvar archivo              |
+| C-x C-f         | Abrir archivo               |
+| M-q             | Formatear el párrafo        |
+| C-x d           | Editar directorio           |
+| C-g             | Salir de todo               |
+| C-x 1           | Regresa a una sola pantalla |
+| C-x 2           | Divide horizontalmente      |
+| C-x 3           | Divide verticalmente        |
+| M-w             | Copiar la región            |
+| C-w             | Borrar la región            |
+| Shift y flechas | Seleccionar la región       |
+| C-y             | Pegar la región             |
+
+** Git
+*** Github
+** Python
+*** El lenguaje Python
+*** Jupyter
+** LaTex
